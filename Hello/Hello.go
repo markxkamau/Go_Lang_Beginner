@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 var (
-	name string
+	name string = "Mark"
 	age int
 	year int
 )
 
 func main() {
 	var pntr *string
+
 	greeting := "Greetings from "+name
 
 	pntr = &greeting
